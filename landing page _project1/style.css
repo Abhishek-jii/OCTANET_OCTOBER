@@ -1,0 +1,119 @@
+    table,
+    th,
+    td {
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    table {
+        background: #0b0b0b;
+        color: aliceblue;
+    }
+    
+    #heading {
+        color: #7c7474;
+    }
+    
+    tr#content {
+        background-color: #423838;
+    }
+    
+    td {
+        height: 50px;
+        width: 50px;
+    }
+    
+    td {
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    #table {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-color: #24252a;
+    }
+    
+    .logo {
+        cursor: pointer;
+    }
+    
+    .nav__links a,
+    .cta,
+    .overlay__content a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+    
+    .nav__links {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav__links li {
+        padding: 0px 20px;
+    }
+    
+    .nav__links li a {
+        transition: color 0.3s ease 0s;
+    }
+    
+    .nav__links li a:hover {
+        color: #0088a9;
+    }
+    
+    .data {
+        background-color: #3a3a3a;
+        height: 236px;
+        padding-top: 50px;
+    }
+    
+    .cta {
+        padding: 9px 25px;
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease 0s;
+    }
+    
+    .cta:hover {
+        background-color: rgba(0, 136, 169, 0.8);
+    }
+    /* @media screen and (max-width: 450px) {
+       
+        header {
+            flex-direction: column;
+            text-align: center;
+        }
+        .nav__links {
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav__links li {
+            padding: 10px 0;
+        }
+        .cta {
+            margin-top: 20px;
+        }
+        .data {
+            display: none;
+        }
+    } */
